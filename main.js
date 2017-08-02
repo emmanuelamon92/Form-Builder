@@ -193,8 +193,8 @@ telMobile.setAttribute('placeholder', "Mobile Number");
 telMobile.setAttribute('id', "user-mobile");
 telMobile.setAttribute('icon', "fa-mobile-phone");
 
-console.log(telMobile);
-// telMobile.appendChild(telMobileIn);
+// console.log(telMobile);
+telMobile.appendChild(telMobileIn);
 
 // "type": "tel",
 // "label": "Home Number",
@@ -209,5 +209,5 @@ telHomeIn.setAttribute('placeholder', "Home Number");
 telHomeIn.setAttribute('id', "user-phone");
 telHomeIn.setAttribute('icon', "fa-phone");
 
-// telHome.appendChild(telHomeIn);
-console.log(telHomeIn);
+telHome.appendChild(telHomeIn);
+// console.log(telHomeIn);
