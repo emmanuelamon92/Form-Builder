@@ -133,3 +133,81 @@ emailAdd.setAttribute('id', "user-email");
 emailAdd.setAttribute('icon', "fa-envelope");
 
 email.appendChild(emailAdd);
+
+// "type": "text",
+// "label": "Current Website URL",
+// "id": "user-website",
+// "icon": "fa-globe",
+// "options": []
+
+let website = document.querySelector('#fields');
+let websiteInput = document.createElement('input');
+websiteInput.setAttribute('type', "text");
+websiteInput.setAttribute('placeholder', "Current Website URL");
+websiteInput.setAttribute('id', "user-website");
+websiteInput.setAttribute('icon', "fa-globe");
+
+website.appendChild(websiteInput);
+
+//
+// "type": "select",
+// "label": "Select Language",
+// "id": "user-language",
+// "icon": "",
+// "options": [
+
+let language = document.querySelector('#fields');
+let languageSel = document.createElement('input');
+languageSel.setAttribute('type', "select");
+languageSel.setAttribute('placeholder', "Select Language");
+languageSel.setAttribute('id', "user-language");
+languageSel.setAttribute('icon', "");
+
+language.appendChild(languageSel);
+
+// "type": "textarea",
+// "label": "Your Comment",
+// "id": "user-comment",
+// "icon": "fa-comments",
+// "options": []
+
+let textArea = document.querySelector('#fields');
+let textAreaIn = document.createElement('input');
+textAreaIn.setAttribute('type', "textarea");
+textAreaIn.setAttribute('placeholder', "Your Comment");
+textAreaIn.setAttribute('id', "user-comment");
+textAreaIn.setAttribute('icon', "fa-comments");
+
+textArea.appendChild(textAreaIn);
+
+// "type": "tel",
+// "label": "Mobile Number",
+// "id": "user-mobile",
+// "icon": "fa-mobile-phone",
+// "options": []
+
+let telMobile = document.querySelector('#fields');
+let telMobileIn = document.createElement('input');
+telMobile.setAttribute('type', "tel");
+telMobile.setAttribute('placeholder', "Mobile Number");
+telMobile.setAttribute('id', "user-mobile");
+telMobile.setAttribute('icon', "fa-mobile-phone");
+
+console.log(telMobile);
+// telMobile.appendChild(telMobileIn);
+
+// "type": "tel",
+// "label": "Home Number",
+// "id": "user-phone",
+// "icon": "fa-phone",
+// "options": []
+
+let telHome = document.querySelector('#fields');
+let telHomeIn = document.createElement('input');
+telHomeIn.setAttribute('type', "tel");
+telHomeIn.setAttribute('placeholder', "Home Number");
+telHomeIn.setAttribute('id', "user-phone");
+telHomeIn.setAttribute('icon', "fa-phone");
+
+// telHome.appendChild(telHomeIn);
+console.log(telHomeIn);
